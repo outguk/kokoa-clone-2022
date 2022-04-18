@@ -1,0 +1,13 @@
+.badge {
+  background-color: tomato;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* content의 부모는 content의 tag = <span> */
+  color: white;
+  font-weight: 400;
+}

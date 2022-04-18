@@ -1,0 +1,35 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+
+  background-color: #f2f2f5;
+  padding: 15px 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.09);
+}
+.nav__ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.nav__link {
+  position: relative;
+}
+
+.nav__notification {
+  position: absolute;
+  left: 11px;
+  bottom: 11px;
+}
+
+.nav__dott {
+  border-radius: 50%;
+  width: 4.5px;
+  height: 4.5px;
+  background-color: tomato;
+  position: absolute;
+  right: -3px;
+  top: -1px;
+}
