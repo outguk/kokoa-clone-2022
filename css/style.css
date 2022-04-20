@@ -8,6 +8,7 @@
 @import "component/screen-header.css";
 @import "component/user-component.css";
 @import "component/badge.css";
+@import "component/icon-row.css";
 
 /* login Page */
 @import "login-page/login.css";
@@ -15,11 +16,23 @@
 /* Friends Page */
 @import "friends-page/friends.css";
 
+/* Find page */
+@import "find-page/find.css";
+
+/* More page */
+@import "more-page/more.css";
+
 body {
-  font-family: "Encode Sans", sans-serif;
+  height: 135vh;
+  font-family: "Encode Sans", sans-serif, "Font Awesome 5 Brands",
+    "Font Awesome 5 Free";
   color: #2e363e;
 }
 
 .main-screen {
   padding: 0px var(--horizontal-space);
+}
+
+.point {
+  position: relative;
 }
