@@ -1,5 +1,6 @@
 .user-component {
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .user-component__column:first-child,
@@ -28,6 +29,7 @@
 .user-component__name {
   font-weight: 500;
   font-size: 22px;
+  margin-left: 5px;
 }
 
 .user-component__name_not_bold {
@@ -48,6 +50,10 @@
   align-items: flex-end;
 }
 
+.user-component__column_plus div {
+  color: rgba(0, 0, 0, 0.4);
+}
+
 .user-component__time {
   display: block;
   margin-bottom: 10px;
@@ -59,6 +65,22 @@
 }
 
 .user-component__column:last-child i {
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
+}
+
+.duji {
+  background-color: white;
+}
+
+.user-component__column_word div {
+  background-color: white;
+  border: 1px solid green;
+  border-radius: 15px;
+  padding: 7px 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

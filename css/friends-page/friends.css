@@ -6,6 +6,8 @@
   font-size: 16px;
   margin-bottom: 10px;
   margin-top: -15px;
+  background-color: var(--Bwhite);
+  border: 5px dashed var(--nav-blonde);
 }
 #friends-display-link i {
   color: rgba(0, 0, 0, 0.3);
@@ -31,4 +33,33 @@
 
 .fa-chevron-up {
   padding-top: 8px;
+}
+
+@keyframes hideSplashScreen {
+  form {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  background-color: var(--head-brown);
+  position: absolute;
+  width: 100vw;
+  height: 120vh;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  animation: hideSplashScreen 0.4s ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+#splash-screen img {
+  width: 200px;
+  height: 200px;
 }

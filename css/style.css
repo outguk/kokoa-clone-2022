@@ -9,6 +9,8 @@
 @import "component/user-component.css";
 @import "component/badge.css";
 @import "component/icon-row.css";
+@import "component/alt-header.css";
+@import "component/no-mobile.css";
 
 /* login Page */
 @import "login-page/login.css";
@@ -22,11 +24,18 @@
 /* More page */
 @import "more-page/more.css";
 
+/* Settings page */
+@import "settings-page/settings.css";
+
+/* Chat page */
+@import "chat-page/chat.css";
+
 body {
-  height: 135vh;
+  height: 120vh;
   font-family: "Encode Sans", sans-serif, "Font Awesome 5 Brands",
     "Font Awesome 5 Free";
   color: #2e363e;
+  background-color: var(--Bwhite);
 }
 
 .main-screen {
